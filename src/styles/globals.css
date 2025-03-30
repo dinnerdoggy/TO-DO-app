@@ -2,3 +2,14 @@ body {
   background: black;
   color: white;
 }
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  min-width: 90px;
+}
